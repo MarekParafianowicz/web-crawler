@@ -1,0 +1,18 @@
+{
+  "development": {
+    "username": "marekparafianowicz",
+    "password": null,
+    "database": "web-crawler-dev",
+    "host": "127.0.0.1",
+    "port": 5432,
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "marekparafianowicz",
+    "password": null,
+    "database": "web-crawler-test",
+    "host": "127.0.0.1",
+    "port": 5432,
+    "dialect": "postgres"
+  }
+}
