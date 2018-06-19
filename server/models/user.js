@@ -22,7 +22,12 @@ module.exports = function(sequelize, DataTypes) {
       associate: function(models) {
         // associations can be defined here
       }
-    }
+    },
+    instanceMethods: {
+      isValidPassword(password) {
+        return bcrypt.compare(password, this.password);
+      },
+    },
   });
   return User;
 };
